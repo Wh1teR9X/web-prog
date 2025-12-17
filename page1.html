@@ -1,37 +1,54 @@
 <!DOCTYPE html>
 <html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <title>Варіант 1</title>
+    <meta charset="UTF-8" />
+    <title> Завдання №1</title>
+    <link href="style.css" rel="stylesheet" />
     <style>
-        table {
-            border-collapse: collapse;
-            width: 600px;
+        .title2 {
+            font-size: 30px;
+            color: tomato;
         }
-        td {
-            border: 2px solid black;
-            height: 80px;
+        .para2 {
+            font-style: italic;
+            font-size: 20px;
+        }
+        #def-list {
+            font-weight: bold;
         }
     </style>
 </head>
 <body>
+    <div>
+        <h2 style="background-color: blue; color: white;">Заголовок № 1</h2>
+        <p style="font-size: 26px;">Параграф тексту № 1</p>
+        <p style="font-size: 26px;">Параграф тексту № 2</p>
+        <ul>
+            <li>Пункт 1</li>
+            <li>Пункт 2</li>
+            <li>Пункт 3</li>
+        </ul>
+    </div>
 
-<table>
+    <div>
+        <h2 class="title2">Другий заголовок</h2>
+        <p class="para2">Параграф № 1.1</p>
+        <dl id="def-list">
+            <dt>Термін 1</dt>
+            <dd>Визначення 1</dd>
+            <dt>Термін 2</dt>
+            <dd>Визначення 2</dd>
+        </dl>
+    </div>
 
-    <tr>
-        <td colspan="3"></td>
-    </tr>
-
-    <tr>
-        <td rowspan="2"></td>
-        <td colspan="2"></td>
-    </tr>
-
-    <tr>
-        <td></td>
-        <td></td>
-    </tr>
-</table>
-
+    <div>
+        <h2 class="title3">Третій заголовок</h2>
+        <p class="para3">Параграф № 2.1</p>
+        <ol class="list3">
+            <li>Елем 1</li>
+            <li>Елем 2</li>
+            <li>Елем 3</li>
+        </ol>
+    </div>
 </body>
 </html>
